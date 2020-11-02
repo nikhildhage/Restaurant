@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapperForm {
+  widows: 100vw;
+  height: 100vh;
+}
+
+.heading {
+  display: block;
+  text-align: left;
+  color:white;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form #inputArea{
+  display: flex;
+  flex-direction: column;
+}
+
+#inputArea input{
+  margin-bottom: 20px;
+  width: 450px;
+  background-color: white;
+  color: black;
+}
+
+#msgArea textarea{
+  margin: 20px 0px;
+  background-color:white;  
+  color: black;  
+}
+
+#submitArea{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+#resetBtn{
+  background-color:skyblue;
+  width: 100px;
+  height: 30px;
+
+}
+
+#submitBtn{
+ margin-left: 30px;
+ background-color: yellow;
+ width: 100px;
+ height: 30px;
+}
+
+
+
+
+

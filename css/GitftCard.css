@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+#headerImg{
+    width: 1auto;
+    height: 200px;
+    padding-bottom: 100px;
+    background-image: url("../Images/GiftCardsImg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#giftCardsArea{
+   
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#giftCardsArea section{
+   background-color: darkslategray;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+
+
+ #giftCardsArea section p{
+    margin-left: 50px;
+    font-size: 2em;
+}
+
+
+
+

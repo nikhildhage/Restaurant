@@ -1,0 +1,49 @@
+*{
+    margin:0 ;
+    padding:0;
+}
+
+
+
+
+.wrapper{
+    widows: 100vw;
+    height: 100vh;
+}
+
+
+
+.mainContent{
+    position: relative;
+    padding: 300px;
+}
+
+#landingImg{
+    position: relative;
+    width: 100vw;
+    height: 800px;
+}
+
+.slogan{
+    position:absolute;
+    z-index: 1;
+    font-size: 3em;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    margin: 250px 80px;
+}
+
+.footer{
+    padding: 150px;
+    background-color:orange;
+}
+
+
+
+
+
+
+
+
+
