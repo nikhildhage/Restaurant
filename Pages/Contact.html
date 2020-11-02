@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=main, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/form.css" />
+  <title>Contact</title>
+</head>
+
+<body>
+  <div class="wrapperForm">
+    <div class="banner">
+      <h1 class="RestaurantName">Restaurant</h1>
+      <nav class="navbar">
+        <ul id="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="Menus.html">Menus</a></li>
+          <li><a href="Resservations.html">Reservations</a></li>
+          <li><a href="Locations.html">Locations</a></li>
+          <li><a href="Contact.html">Contact us</a></li>
+          <li><a href="GiftCard.html">Gift Cards</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="heading">
+      <h1 id="heading">Contact Us</h1>
+      <br />
+      <p>Complete and submit this form. We will respond via email in 1 -2 business days</p>
+    </header>
+    <form class="form" method="GET">
+      <div id="inputArea">
+        <input type="text" name="FirstName" value="" id="FirstName" placeholder="First Name" />
+        <input type="text" name="LastName" value="" id="LastName" placeholder="Last Name" />
+        <input type="email" name="Email" value="" id="Email"
+          placeholder="Enter your enail addres" />
+        <input type="tel" name="PhoneNumber" value="" id="PhoneNumber" placeholder=" Phone" />
+        <input type="date" name="ReservationDate" value="" id="ReservationDate" />
+      </div>
+
+      <div id="msgArea">
+        <textarea name="msg" placeholder="Notes" id="notesArea" cols="55" rows="10"></textarea>
+      </div>
+      <div id="subnitArea">
+        <button id="resetBtn">Reset</button>
+        <button type="submit" id="submitBtn">Submiut</button>
+      </div>
+    </form>
+    <footer id="footer"></footer>
+  </div>
+</body>
+
+</html>
