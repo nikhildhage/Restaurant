@@ -1,0 +1,29 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "This is a complex website for a restaurant built with Html , Css, Bootstrap and Jquery  ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhildhage/Restaurant.git"
+  },
+  "keywords": [
+    "Boostrap",
+    "Jquery"
+  ],
+  "author": "Nikhil Dhage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhildhage/Restaurant/issues"
+  },
+  "homepage": "https://github.com/nikhildhage/Restaurant#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
