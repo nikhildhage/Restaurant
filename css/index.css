@@ -18,10 +18,13 @@
     padding: 300px;
 }
 
+.heroImgContainer{
+    width: 100vw;
+    height: 75vh;
+}
 #landingImg{
     position: relative;
-    width: 100vw;
-    height: 800px;
+    width: 50%;
 }
 
 .slogan{

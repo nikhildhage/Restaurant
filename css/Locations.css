@@ -4,11 +4,12 @@
 }
 
 
-.container{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+
+.wrapper{
+    width: 100%;
+    height: 100%;
 }
+
 
 
 header h1{
@@ -26,10 +27,10 @@ header h1{
     width: 100vw;
 }
 
- .locations section{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     column-gap: 2em;
+.locations section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
 }
 
 .locations div{

@@ -7,8 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>My Restaurant</title>
 
+
+
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/custom.css">
@@ -16,38 +20,58 @@
 </head>
 
 <body>
+  <!-- Page Container-->
   <div class="wrapper">
+
+    <!-- Banner-->
     <div class="banner">
       <h1 class="RestaurantName">Restaurant</h1>
-      <nav class="navbar">
+    </div>
 
-        <ul id="list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./Pages/Menus.html">Menus</a></li>
-          <li><a href="./Pages/Resservations.html">Reservations</a></li>
-          <li><a href="./Pages/Locations.html">Locations</a></li>
-          <li><a href="./Pages/Contact.html">Contact us</a></li>
-          <li><a href="./Pages/GiftCard.html">Gift Cards</a></li>
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-mid navbar-expand-lg navbar-light">
+      <button class="close" data-toggle="collapse" data-target="#menu" type="button">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- collapsing navbar -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item"><a class=" nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class=" nav-link" href="./Pages/Menus.html">Menus</a></li>
+          <li class="nav-item"><a class=" nav-link" href="./Pages/Resservations.html">Reservations</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./Pages/Locations.html">Locations</a></li>
+          <li class="nav-item"><a class="nav-link" href="./Pages/Contact.html">Contact us</a></li>
+          <li class="nav-item"><a class=" nav-link" href="./Pages/GiftCard.html">Gift Cards</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
-    <div class="backgroundContainer">
+    <!-- Image-container-->
+    <div class="heroImgContainer">
       <p class="slogan">Eat Fresh Today<br>Live longer Tomarrow</p>
-      <img id="landingImg"
-        src="https://images.unsplash.com/photo-1519351635902-7c60d09cb2ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
-        alt="">
+      <img id="landingImg" src="Images/SeafoodHero.png" alt="A plate of seafood">
     </div>
-    <div class="mainContent">
 
-    </div>
+    <!-- Main content-->
+    <div class="mainContent"></div>
+
+    <!-- Footer -->
     <div class="footer"> </div>
   </div>
 
+
   <!-- Jquery first , then Popper JS , then Bootstrap JS -->
-  <script src="node_modules/jquery/dist/jquery.slim.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
