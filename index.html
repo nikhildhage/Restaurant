@@ -31,13 +31,13 @@
     <!-- Navigation Bar-->
     <nav class="navbar navbar-expand-mid navbar-expand-lg navbar-light">
       <button class="close" data-toggle="collapse" data-target="#menu" type="button">
-        <i class="fas fa-bars"></i>
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <!-- collapsing navbar -->
       <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav justify-content-center">
-          <li class="nav-item"><a class=" nav-link" href="#">Home</a></li>
+        <ul class="navbar-nav">
+          <li class=" nav-item"><a class=" nav-link" href="#">Home</a></li>
           <li class="nav-item"><a class=" nav-link" href="./Pages/Menus.html">Menus</a></li>
           <li class="nav-item"><a class=" nav-link" href="./Pages/Resservations.html">Reservations</a>
           </li>
@@ -51,11 +51,38 @@
     <!-- Image-container-->
     <div class="heroImgContainer">
       <p class="slogan">Eat Fresh Today<br>Live longer Tomarrow</p>
+      <a id="orderNowBtn" class="btn btn-default" href="Menus.html">Order Now</a>
       <img id="landingImg" src="Images/SeafoodHero.png" alt="A plate of seafood">
     </div>
 
     <!-- Main content-->
-    <div class="mainContent"></div>
+    <div class="mainContent">
+      <div id="userReviews" class="card-deck userReviews">
+        <div class="card">
+          <img clas="card-img-top img-fluid" src="./Images/userReview1.png" alt="">
+          <div class="card-body">
+            <p class="card-text">" The food Here is very fresh and healthy.<br> The best
+              ingredients were used.<br> I liove the Burgers "</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./Images/userReview2.png" alt="">
+          <div class="card-body">
+            <p class="card-text">I liove the fish. The different types fish are delious<br> well worth the price.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top img-fluid" src="./Images/userReview3.png" alt="">
+          <div class="card-body">
+            <p class="card-text">I liove salads</p>
+          </div>
+        </div>
+      </div>
+
+      <button id="hideReviewsBtn" class="btn btn-default ">Hide</button>
+    </div>
 
     <!-- Footer -->
     <div class="footer"> </div>
@@ -72,6 +99,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+  <!-- Load interactive scripts-->
+  <script src="./Js/src/orderButton.js"></script>
+  <script src="./Js/src/hideReviewsButton.js"></script>
 </body>
 
 </html>
